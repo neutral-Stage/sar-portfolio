@@ -1,6 +1,6 @@
 # sar-portfolio
 
-## A Vue Js + Vuetify Portfolio for web developer
+## Seo Optimized Vue Js + Vuetify Portfolio Website for web developer
 
 ## Project setup
 
