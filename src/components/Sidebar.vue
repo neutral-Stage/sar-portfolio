@@ -112,11 +112,11 @@ export default {
         },
         {
           label:"twitter",
-          link:"https://twitter.com/BuilderCode"
+          link:"https://twitter.com/anirban_shuvo"
         },
         {
           label:"whatsapp",
-          link:"wa.link/11baw8"
+          link:"https://wa.link/11baw8"
         },
         {
           label:"instagram",
