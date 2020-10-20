@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        height: 100%; /* Make this site really long */
+        width: 100%; /* Make this site really wide */
+        overflow-y: hidden; /* Hide scrollbars */
+        background-color:  #d1d4d8;
+      }
+      @media screen and (max-width: 1024px){
+        body {
+              height: 100%; /* Make this site really long */
+              width: 100%; /* Make this site really wide */
+              overflow-y: scroll; /* Hide scrollbars */
+            }
+      }
+      @media screen and (max-width: 475px){
+        body {
+              height: 100%; /* Make this site really long */
+              width: 100%; /* Make this site really wide */
+              overflow-y: scroll; /* Hide scrollbars */
+            }
+      }
+      .overflow::-webkit-scrollbar {
+        display: none;
+      }
+
+      .overflow {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: #000000;
+      color: white;
+      padding: 8px;
+      z-index: 100;
+    }
+
+    .skip-link:focus {
+      top: 0;
+    }   
+    </style>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favico.png" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+    <title>Shuvo Anirban Roy | Portfolio</title>
+    <meta name="description" content="Hello, I'm Shuvo Anirban Roy. I'm a full stack/ front end developer. Please visit my portfolio and stay connected with me.">
+    <meta name="author" content="Shuvo Anirban Roy">
+    <meta name="keywords" content="portofolio, vue, javascript, front end developer, web developer, full stack developer, vuetify, javascript, responsive design, web designer, made with vue, github vue">
+
+    <meta twitter:site content="Hello, I'm Shuvo Anirban Roy. I'm a full stack/ front end developer. Please visit my portfolio and stay connected with me.">
+    <meta twitter:titile content="Shuvo Anirban Roy | Portfolio">
+    <meta twitter:creator content="Shuvo Anirban Roy">
+    <meta property="og:title" content="Shuvo Anirban Roy | Portfolio">
+    <meta property="og:type" content="spa | portfolio ">
+    <meta property="og:url" content="shuvoanirbanroy.com">
+    <meta property="og:descripttion" content="Hello, I'm Shuvo Anirban Roy. I'm a full stack/ front end developer. Please visit my portfolio and stay connected with me.">
+    <meta property="og:site_name" content="Shuvo Anirban Roy | Portfolio">
+  </head>
+  <body class="overflow">
+    <noscript>
+      <strong
+        >We're sorry but Shuvo Anirban Roy | Portfolio doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <a class="skip-link" href="#main">Skip to main</a>
+    <main id="app">
+      
+    </main>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

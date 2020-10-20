@@ -1,0 +1,47 @@
+.sidebar {
+  background-color: $black;
+  height: 100vh;
+  z-index: 1;
+  -webkit-box-shadow: 10px 0px 50px -5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 0px 50px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 0px 50px -5px rgba(0, 0, 0, 0.75);
+}
+
+.back {
+  position: relative;
+  &__body {
+    position: absolute;
+    top: 50%;
+    transform: translateY(10%);
+  }
+}
+.myAvatar {
+  max-width: 14rem;
+  margin: auto;
+  border: 5px solid $primary;
+}
+.bg-primary {
+  background-color: $primary;
+  color: $black;
+}
+.custom-button {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: $white;
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .myAvatar {
+    max-width: 9rem;
+    margin: 1rem auto;
+    border: 5px solid $primary;
+  }
+}
+@media (max-width: 475px) {
+  .myAvatar {
+    max-width: 10rem;
+    margin: 1rem auto;
+    border: 5px solid $primary;
+  }
+}
